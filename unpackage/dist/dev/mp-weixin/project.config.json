@@ -19,7 +19,7 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.7.7",
+  "libVersion": "3.8.1",
   "appid": "wx031159e3e8842469",
   "projectname": "MyOrderTest",
   "condition": {},
