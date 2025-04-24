@@ -116,6 +116,11 @@ export const orderApi = {
       size,
       status
     })
+  },
+
+  // 取消订单
+  cancelOrder(orderId) {
+    return request.delete(`${baseURL}/orders/${orderId}`)
   }
 }
 

@@ -94,6 +94,10 @@ const orderApi = {
       size,
       status
     });
+  },
+  // 取消订单
+  cancelOrder(orderId) {
+    return utils_request.request.delete(`${baseURL}/orders/${orderId}`);
   }
 };
 const categoryApi = {
